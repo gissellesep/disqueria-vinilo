@@ -1,4 +1,4 @@
-/* Fondo general suave */
+/* Fondo general */
 body {
   background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -62,7 +62,7 @@ button:hover {
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-/* Imágenes (ARREGLA el zoom feo) */
+/* Imágenes*/
 .img-disco {
   height: 220px;
   object-fit: contain; /* 👈 CAMBIO IMPORTANTE */
