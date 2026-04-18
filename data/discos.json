@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "album": "Kind of Blue",
+    "artista": "Miles Davis",
+    "genero": "jazz",
+    "año": 1959,
+    "precio": 32000,
+    "imagen": "img/kindofblue.jpg",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "album": "A Love Supreme",
+    "artista": "John Coltrane",
+    "genero": "jazz",
+    "año": 1965,
+    "precio": 30000,
+    "imagen": "img/alovesupreme.jpg",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "album": "Time Out",
+    "artista": "Dave Brubeck",
+    "genero": "jazz",
+    "año": 1959,
+    "precio": 27000,
+    "imagen": "img/timeout.jpg",
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "album": "Led Zeppelin IV",
+    "artista": "Led Zeppelin",
+    "genero": "rock",
+    "año": 1971,
+    "precio": 28000,
+    "imagen": "img/ledzeppelin4.jpg",
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "album": "Abbey Road",
+    "artista": "The Beatles",
+    "genero": "rock",
+    "año": 1969,
+    "precio": 35000,
+    "imagen": "img/abbeyroad.jpg",
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "album": "Rumours",
+    "artista": "Fleetwood Mac",
+    "genero": "rock",
+    "año": 1977,
+    "precio": 29000,
+    "imagen": "img/rumours.jpg",
+    "disponible": true
+  },
+  {
+    "id": 7,
+    "album": "The Complete Recordings",
+    "artista": "Robert Johnson",
+    "genero": "blues",
+    "año": 1990,
+    "precio": 25000,
+    "imagen": "img/robertjohnson.jpg",
+    "disponible": false
+  },
+  {
+    "id": 8,
+    "album": "Live at the Regal",
+    "artista": "B.B. King",
+    "genero": "blues",
+    "año": 1965,
+    "precio": 26000,
+    "imagen": "img/liveattheregal.jpg",
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "album": "Texas Flood",
+    "artista": "Stevie Ray Vaughan",
+    "genero": "blues",
+    "año": 1983,
+    "precio": 27000,
+    "imagen": "img/texasflood.jpg",
+    "disponible": true
+  }
+]

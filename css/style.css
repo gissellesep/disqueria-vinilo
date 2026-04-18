@@ -1,0 +1,102 @@
+/* Fondo general suave */
+body {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header (logo + título) */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.logo {
+  width: 60px;
+}
+
+/* Título estilo disquería */
+.header h1 {
+  font-family: "Bookman Old Style", Georgia, serif;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+  color: #2c3e50;
+}
+
+/* Buscador */
+input {
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #6c757d;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Botones */
+button {
+  border-radius: 20px !important;
+  padding: 8px 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Tarjetas */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Imágenes (ARREGLA el zoom feo) */
+.img-disco {
+  height: 220px;
+  object-fit: contain; /* 👈 CAMBIO IMPORTANTE */
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Texto de tarjeta */
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+/*  Precio */
+.fw-bold {
+  color: #1a73e8;
+}
+
+/*  Badge */
+.badge {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+/* No disponible */
+.text-danger {
+  font-size: 14px;
+}
+
+/* Mensaje vacío */
+.text-center p {
+  color: #777;
+  font-size: 18px;
+}
